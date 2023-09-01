@@ -24,7 +24,7 @@ def learn(concepts, target):
     '''
 
     # Initialise S0 with the first instance from concepts
-    # .copy() makes sure a new list is created instead of just pointing to the same memory location
+    
     specific_h = concepts[0].copy()
     print("\nInitialization of specific_h and general_h")
     print(specific_h)
