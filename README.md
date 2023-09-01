@@ -9,7 +9,7 @@ The purpose of this code is to learn a hypothesis that describes a target concep
 Working:
 -------
 
-1)Import necessary libraries:
+1) Import necessary libraries:
 The code imports the numpy and pandas libraries to work with data efficiently.
 
 2) Load Data:
@@ -38,7 +38,7 @@ If the current feature doesn't match the specific hypothesis, it updates that fe
 Otherwise, it updates the feature in general_h to '?' to indicate uncertainty.
 After each iteration, it prints the current state of specific_h and general_h.
 
-7 )Clean General Hypothesis:
+7) Clean General Hypothesis:
 The algorithm identifies and removes any rows from general_h that are entirely filled with '?' since they do not provide any meaningful information.
 
 8) Final Output:
